@@ -4,6 +4,7 @@ drinks = ["coffee", "soda", "tea"]
 dinner = ["pizza", "hamburger", "hotdog"]
 dessert = ["cake", "ice cream"]
 
+# conteanate each list
 food = [drinks, dinner, dessert]
 
 # show elements in 2d list
