@@ -36,3 +36,11 @@ print(type(animal))
 
 print("You're human: " + str(human))
 print("You're an animal: " + str(animal) + "\n")
+
+
+# multiple assignment = allows us to assign multiple variables at the same time in one line of code
+name, age, attractive = "Yazan", 19, True
+
+print(name)
+print(age)
+print(attractive)
