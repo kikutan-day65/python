@@ -23,3 +23,8 @@ slice = slice(-9, length)
 team = website[slice]
 
 print(team)
+
+website = website[:-9]
+newteam = input("Type your favorite MLB team (lowercase): ")
+newURL = website + newteam
+print(newteam + " official website: " + newURL)
