@@ -51,3 +51,8 @@ else:
 # .count() = how many designated characters are within a string
 cnt = name.count("o")
 print("the sting contains " + str(cnt) + " \"o\"'s in itself\n")
+
+
+# .replace("A", "B") = replace A to B
+replace = name.replace("r", "X")
+print(str(replace) + "\n")
