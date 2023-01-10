@@ -9,3 +9,11 @@ print(type(firstName))
 print(type(lastName))
 
 print("Hello, " + firstName + " " + lastName + "\n")
+
+# integer datatype
+age = 24
+
+print(type(age))
+
+age = age + 1
+print("You're " + str(age) + " years old." + "\n")
