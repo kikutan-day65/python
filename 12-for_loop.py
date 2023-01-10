@@ -15,3 +15,12 @@ for i in range(50, 100 + 1):
 # show even numbers between 0 and 100
 for i in range(0,100 + 1, 2):
     print(i)
+
+
+# show each letter of a string
+word = "pneumonoultramicroscopicsilicovolcanoconiosis"
+count = 1
+
+for i in word:
+    print(str(count) + ": " + i)
+    count += 1
