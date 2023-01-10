@@ -24,3 +24,10 @@ count = 1
 for i in word:
     print(str(count) + ": " + i)
     count += 1
+
+
+# count down = range(start, stop, step)
+for sec in range(10, 0, -1):
+    print(sec)
+print("BOOOM!")
+    
