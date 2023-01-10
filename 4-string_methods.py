@@ -19,4 +19,11 @@ print("\"Mori\" is started at idx " + str(place) + "\n")
 
 # .capitalize() = capitalize the FIRST letter of the string
 cap = name.capitalize()
-print(cap)
+print(cap + "\n")
+
+
+# upper(), lower() = it convert a string to uppercase/lowercase
+uppercase = name.upper()
+lowercase = name.lower()
+print(uppercase)
+print(lowercase + "\n")
