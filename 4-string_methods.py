@@ -27,3 +27,12 @@ uppercase = name.upper()
 lowercase = name.lower()
 print(uppercase)
 print(lowercase + "\n")
+
+
+# isdigit() = it returns boolean(True/False) if the string is digit
+digit = name.isdigit()
+
+if digit:
+    print("Yes, it is digit\n")
+else:
+    print("No, it is not digit\n")
