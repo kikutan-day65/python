@@ -16,4 +16,11 @@ age = 24
 print(type(age))
 
 age = age + 1
-print("You're " + str(age) + " years old." + "\n")
+print("You're " + str(age) + " years old.\n")
+
+# float = floating point number (a decimal number)
+height = 171.5
+
+print(type(height))
+print("Your height is " + str(height) + "cm\n")
+
