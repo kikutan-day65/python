@@ -10,6 +10,7 @@ print(type(lastName))
 
 print("Hello, " + firstName + " " + lastName + "\n")
 
+
 # integer datatype
 age = 24
 
@@ -18,9 +19,20 @@ print(type(age))
 age = age + 1
 print("You're " + str(age) + " years old.\n")
 
+
 # float = floating point number (a decimal number)
 height = 171.5
 
 print(type(height))
 print("Your height is " + str(height) + "cm\n")
 
+
+# boolean = True or False
+human = True
+animal = False
+
+print(type(human))
+print(type(animal))
+
+print("You're human: " + str(human))
+print("You're an animal: " + str(animal) + "\n")
