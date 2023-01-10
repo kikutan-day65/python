@@ -1,6 +1,6 @@
 # slicing = create a substring by extractiong elements from another string
 #           indexing[] or slice()
-#           [start:stop:step]
+#           [start:stop:step] or (start, stop, step)
 
 name = "Haruto Mori"
 
@@ -14,3 +14,12 @@ print(firstName)
 print(lastName)
 print(funkyName)
 print(reversedName)
+
+
+website = "https://www.mlb.com/guardians"
+length = len(website)
+
+slice = slice(-9, length)
+team = website[slice]
+
+print(team)
