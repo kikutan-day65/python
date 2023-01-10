@@ -4,6 +4,7 @@ name = "Haruto Mori"
 length = len(name)
 print("string length is: " + str(length) + "\n")
 
+
 # .find() = find the designasted letter in the string. it returns the inde of it.
 place = name.find("H")
 print("\"H\" is at idx " + str(place) + "\n")
@@ -14,3 +15,8 @@ print("\"o\" is at idx " + str(place) + "\n")
 
 place = name.find("Mori")
 print("\"Mori\" is started at idx " + str(place) + "\n")
+
+
+# .capitalize() = capitalize the FIRST letter of the string
+cap = name.capitalize()
+print(cap)
