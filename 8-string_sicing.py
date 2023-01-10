@@ -21,7 +21,6 @@ length = len(website)
 
 slice = slice(-9, length)
 team = website[slice]
-
 print(team)
 
 website = website[:-9]
