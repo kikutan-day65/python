@@ -3,7 +3,7 @@
 name = "haruto MORI"
 
 
-# .islower() = check if the index is in lowercase
+# .islower()/isupper() = check if the index is in lowercase/uppercase
 if (name[0].islower()):
     name = name.capitalize()
 print(name)
