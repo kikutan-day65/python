@@ -10,3 +10,5 @@ dst = 'C:\\Users\\bayst\\coding\\python\\basics'
 
 # .copyfile(src, dst)
 shutil.copyfile(src, dst)
+
+# permissionError happens, why???
