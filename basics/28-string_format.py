@@ -24,3 +24,8 @@ print("my favorite book is {:<20}. What about you?".format(book))
 
 # align right in 20 spaces
 print("my favorite book is {:>20}. What about you?".format(book))
+
+
+PI = 3.14159
+# displays only two digits
+print("The number PI is {:.2}".format(PI))
