@@ -23,3 +23,17 @@ def add(*args):
 
 print(add(1, 2, 3))
 print(add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+
+
+def multiply(*numbers):
+    total = 1
+
+    # convert a tuple to a list
+    numbers = list(numbers)
+    numbers[0] = 100
+
+    for i in numbers:
+        total *= i
+    return total
+
+print(multiply(1,2,3))
