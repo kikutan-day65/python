@@ -14,7 +14,7 @@ class PlayerCharacter:
     def shout(self):
         print(f"my name is {self.name}")
 
-    # decorator
+    # decorators
     @classmethod
     def adding_things(cls, num1, num2): # cls = stands for "class"
         return num1 + num2
@@ -26,10 +26,16 @@ class PlayerCharacter:
 player1 = PlayerCharacter("Haruto", 24)
 player2 = PlayerCharacter("Yazan", 19)
 player3 = PlayerCharacter()
+player4 = PlayerCharacter()
 
 print(player1.name)
 print(player2.name)
 print(player3.name)
 
+# @classmethod = must have a reference to a class object as the first parameter
 print(player1.adding_things(2,3))
-print(PlayerCharacter.adding_things(4, 9)) # @classmethod
+print(PlayerCharacter.adding_things(4, 9))
+
+# @staicmethod = can have no parameters at all
+print(player4.substarct(5, 2))
+print(PlayerCharacter.substarct(4, 2))
