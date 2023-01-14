@@ -5,7 +5,7 @@ class PlayerCharacter:
     membership = True
     def __init__(self, name, age):
         # creating an attribute and set what parameter will be assigned
-        # self refers to a variable that coders created (player1, player2)
+        # self refers to PlayerCharacter class
         if (PlayerCharacter.membership):
             self.name = name
             self.age = age
