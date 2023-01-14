@@ -16,7 +16,7 @@ class PlayerCharacter:
 
     # decorators
     @classmethod
-    def adding_things(cls, num1, num2): # cls = stands for "class"
+    def add(cls, num1, num2): # cls = stands for "class"
         return num1 + num2
     
     @staticmethod
@@ -33,8 +33,8 @@ print(player2.name)
 print(player3.name)
 
 # @classmethod = must have a reference to a class object as the first parameter
-print(player1.adding_things(2,3))
-print(PlayerCharacter.adding_things(4, 9))
+print(player1.add(2,3))
+print(PlayerCharacter.add(4, 9))
 
 # @staicmethod = can have no parameters at all
 print(player4.substarct(5, 2))
