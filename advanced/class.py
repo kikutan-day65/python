@@ -1,12 +1,15 @@
 # OOP
 
 class PlayerCharacter:
+
     # class object attribute
     membership = True
+
+    # self refers to PlayerCharacter class
     def __init__(self, name, age):
+
         # creating an attribute and set what parameter will be assigned
-        # self refers to PlayerCharacter class
-        if (PlayerCharacter.membership):
+        if (self.membership):
             self.name = name
             self.age = age
     
@@ -17,7 +20,7 @@ class PlayerCharacter:
     def shout(self):
         print(f"my name is {self.name}")
 
-# instances
+# instanciate
 player1 = PlayerCharacter("Haruto", 24)
 player2 = PlayerCharacter("Yazan", 19)
 
