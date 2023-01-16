@@ -1,9 +1,10 @@
 # decorator
 
+# decorator pattern
 def my_decorator(func):
-    def wrap_func():
+    def wrap_func(*args, **kwargs):
         print("**************")
-        func()
+        func(*args, **kwargs)
         print("**************")
     return wrap_func
 
@@ -16,7 +17,6 @@ def bye():
     print("see you")
 
 hello()
-print()
 bye()
 
 # hello2 = my_decorator(hello)
