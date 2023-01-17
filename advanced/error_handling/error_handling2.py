@@ -10,5 +10,16 @@ while True:
     except ZeroDivisionError:
         print("please enter age higher than 0")
     else:
-        print("thnak you!")
+        print("thank you!")
         break
+
+
+def sum(num1, num2):
+    try:
+        return num1 / num2
+    except (TypeError, ZeroDivisionError) as err:
+        # err shows what the error is 
+        print(err)
+
+
+print(sum(1,0))
