@@ -1,6 +1,6 @@
-import utility
-import shopping.shopping_cart
+from utility import *
+from shopping import shopping_cart
 
-print(utility.divide(2,3))
+print(divide(2,3))
 
-print(shopping.shopping_cart.buy('apple'))
+print(shopping_cart.buy('apple'))
