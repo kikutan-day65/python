@@ -1,3 +1,15 @@
+"""
+absolute path = the complete details needed to locate a file or folder,
+                starting from the root element and ending with the other subdirectories.
+                "C:\Users\bayst\coding\python\file_IO\script.py"
+
+relative path = the path related to the present working directly(pwd). 
+                It starts at your current directory and never starts with a / .
+                "./app/happy.txt ---> ./ means from the current folder"
+
+"""
+
+
 my_file = open("test.txt")
 
 # shows the file content
