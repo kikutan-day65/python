@@ -12,4 +12,15 @@ class TestMain(unittest.TestCase):
         result = main.do_stuff(test_param)
         self.assertTrue(isinstance(result, ValueError))
 
-unittest.main()
+    def test_do_stuff3(self):
+        test_param = None
+        result = main.do_stuff(test_param)
+        self.assertEqual(result, "plz enter number")
+
+    def test_do_stuff4(self):
+        test_param = " "
+        result = main.do_stuff(test_param)
+        self.assertEqual(result, "plz enter number")
+
+if __name__ == '__main__':
+    unittest.main()
