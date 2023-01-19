@@ -1,7 +1,12 @@
+
+# command: py -m unittest -v
+
 import unittest
 import main
 
 class TestMain(unittest.TestCase):
+    def setUp(self):
+        print("about to test a function")
     def test_do_stuff(self):
         test_param = 10
         result = main.do_stuff(test_param)
@@ -22,5 +27,8 @@ class TestMain(unittest.TestCase):
         result = main.do_stuff(test_param)
         self.assertEqual(result, "plz enter number")
 
+    def tearDown(self):
+        print("cleane up")
+        
 if __name__ == '__main__':
     unittest.main()
