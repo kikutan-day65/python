@@ -13,3 +13,7 @@ def about():
 @app.route("/works.html")
 def work():
     return render_template("works.html")
+
+@app.route("/contact.html")
+def contact():
+    return render_template("contact.html")
